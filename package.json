@@ -7,7 +7,7 @@
     "grf-extractor": "./index.js"
   },
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"no tests\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -26,10 +26,9 @@
   },
   "homepage": "https://github.com/herenow/grf-extractor",
   "dependencies": {
-    "optimist": "^0.6.1",
     "progress": "^2.0.3"
   },
   "engines": {
-    "node": ">=10.12.0"
+    "node": ">=20"
   }
 }
